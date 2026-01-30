@@ -1,0 +1,1899 @@
+{
+  "metadata": {
+    "total_surahs": 114,
+    "last_updated": "2026-01-08",
+    "sources": [
+      {
+        "title": "تفسير ابن كثير",
+        "url": "https://shamela.ws/book/10962"
+      },
+      {
+        "title": "أسباب النزول",
+        "author": "الواحدي",
+        "url": "https://shamela.ws/book/1726"
+      },
+      {
+        "title": "الإتقان في علوم القرآن",
+        "author": "السيوطي",
+        "url": "https://shamela.ws/book/12147"
+      }
+    ]
+  },
+  "surahs": {
+    "1": {
+      "surah_number": 1,
+      "name_arabic": "الفاتحة",
+      "name_transliteration": "Al-Fatihah",
+      "revelation_place": "مكية",
+      "revelation_order": 5,
+      "estimated_age": 40,
+      "verses_count": 7,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص",
+      "context": "من أوائل ما نزل، ركن من أركان الصلاة",
+      "related_events": [
+        "بداية النبوة"
+      ],
+      "sources": [
+        {
+          "title": "أسباب النزول",
+          "author": "الواحدي",
+          "url": "https://shamela.ws/book/1726"
+        },
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "2": {
+      "surah_number": 2,
+      "name_arabic": "البقرة",
+      "name_transliteration": "Al-Baqarah",
+      "revelation_place": "مدنية",
+      "revelation_order": 87,
+      "estimated_age": 55,
+      "verses_count": 286,
+      "asbab_nuzul": "آيات كثيرة لها أسباب نزول: آية الدين، آيات القبلة، آيات الطلاق",
+      "context": "نزلت في المدينة تبين أحكام الشريعة",
+      "related_events": [
+        "تحويل القبلة",
+        "غزوة بدر"
+      ],
+      "sources": [
+        {
+          "title": "أسباب النزول",
+          "url": "https://shamela.ws/book/1726"
+        },
+        {
+          "title": "صحيح البخاري",
+          "url": "https://dorar.net/hadith"
+        }
+      ]
+    },
+    "3": {
+      "surah_number": 3,
+      "name_arabic": "آل عمران",
+      "name_transliteration": "Aal-E-Imran",
+      "revelation_place": "مدنية",
+      "revelation_order": 89,
+      "estimated_age": 56,
+      "verses_count": 200,
+      "asbab_nuzul": "آيات غزوة أحد",
+      "context": "نزلت بعد أحد تثبت المؤمنين",
+      "related_events": [
+        "غزوة أحد"
+      ],
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "4": {
+      "surah_number": 4,
+      "name_arabic": "النساء",
+      "name_transliteration": "An-Nisa",
+      "revelation_place": "مدنية",
+      "revelation_order": 92,
+      "estimated_age": 57,
+      "verses_count": 176,
+      "asbab_nuzul": "أحكام الميراث والزواج والمواريث",
+      "context": "أحكام الأسرة والمجتمع",
+      "related_events": [
+        "التشريعات المدنية"
+      ],
+      "sources": [
+        {
+          "title": "أسباب النزول",
+          "url": "https://shamela.ws/book/1726"
+        }
+      ]
+    },
+    "5": {
+      "surah_number": 5,
+      "name_arabic": "المائدة",
+      "name_transliteration": "Al-Ma'idah",
+      "revelation_place": "مدنية",
+      "revelation_order": 112,
+      "estimated_age": 62,
+      "verses_count": 120,
+      "asbab_nuzul": "اليوم أكملت لكم دينكم - نزلت في حجة الوداع",
+      "context": "آخر سورة نزلت، فيها إكمال الدين",
+      "related_events": [
+        "حجة الوداع"
+      ],
+      "sources": [
+        {
+          "title": "صحيح البخاري",
+          "url": "https://dorar.net/hadith"
+        }
+      ]
+    },
+    "6": {
+      "surah_number": 6,
+      "name_arabic": "الأنعام",
+      "name_transliteration": "Al-An'am",
+      "revelation_place": "مكية",
+      "revelation_order": 55,
+      "estimated_age": 48,
+      "verses_count": 165,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص",
+      "context": "نزلت جملة واحدة، فيها إثبات التوحيد",
+      "related_events": [
+        "الدعوة المكية"
+      ],
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "7": {
+      "surah_number": 7,
+      "name_arabic": "الأعراف",
+      "name_transliteration": "Al-A'raf",
+      "revelation_place": "مكية",
+      "revelation_order": 39,
+      "estimated_age": 46,
+      "verses_count": 206,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص",
+      "context": "قصص الأنبياء والأمم السابقة",
+      "related_events": [
+        "الدعوة المكية"
+      ],
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "8": {
+      "surah_number": 8,
+      "name_arabic": "الأنفال",
+      "name_transliteration": "Al-Anfal",
+      "revelation_place": "مدنية",
+      "revelation_order": 88,
+      "estimated_age": 55,
+      "verses_count": 75,
+      "asbab_nuzul": "نزلت في غزوة بدر والغنائم",
+      "context": "أحكام القتال والغنائم",
+      "related_events": [
+        "غزوة بدر"
+      ],
+      "sources": [
+        {
+          "title": "أسباب النزول",
+          "url": "https://shamela.ws/book/1726"
+        }
+      ]
+    },
+    "9": {
+      "surah_number": 9,
+      "name_arabic": "التوبة",
+      "name_transliteration": "At-Tawbah",
+      "revelation_place": "مدنية",
+      "revelation_order": 113,
+      "estimated_age": 60,
+      "verses_count": 129,
+      "asbab_nuzul": "نزلت بعد فتح مكة وغزوة تبوك",
+      "context": "آخر سورة نزلت، البراءة من المشركين",
+      "related_events": [
+        "فتح مكة",
+        "غزوة تبوك"
+      ],
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "10": {
+      "surah_number": 10,
+      "name_arabic": "يونس",
+      "name_transliteration": "Yunus",
+      "revelation_place": "مكية",
+      "revelation_order": 51,
+      "estimated_age": 47,
+      "verses_count": 109,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص",
+      "context": "قصة يونس والدعوة للتوحيد",
+      "related_events": [
+        "الدعوة المكية"
+      ],
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "11": {
+      "surah_number": 11,
+      "name_arabic": "هود",
+      "revelation_place": "مكية",
+      "revelation_order": 52,
+      "estimated_age": 47,
+      "verses_count": 123,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "12": {
+      "surah_number": 12,
+      "name_arabic": "يوسف",
+      "revelation_place": "مكية",
+      "revelation_order": 53,
+      "estimated_age": 47,
+      "verses_count": 111,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "13": {
+      "surah_number": 13,
+      "name_arabic": "الرعد",
+      "revelation_place": "مدنية",
+      "revelation_order": 96,
+      "estimated_age": 58,
+      "verses_count": 43,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "14": {
+      "surah_number": 14,
+      "name_arabic": "إبراهيم",
+      "revelation_place": "مكية",
+      "revelation_order": 72,
+      "estimated_age": 50,
+      "verses_count": 52,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "15": {
+      "surah_number": 15,
+      "name_arabic": "الحجر",
+      "revelation_place": "مكية",
+      "revelation_order": 54,
+      "estimated_age": 47,
+      "verses_count": 99,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "16": {
+      "surah_number": 16,
+      "name_arabic": "النحل",
+      "revelation_place": "مكية",
+      "revelation_order": 70,
+      "estimated_age": 50,
+      "verses_count": 128,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "17": {
+      "surah_number": 17,
+      "name_arabic": "الإسراء",
+      "revelation_place": "مكية",
+      "revelation_order": 50,
+      "estimated_age": 52,
+      "verses_count": 111,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "18": {
+      "surah_number": 18,
+      "name_arabic": "الكهف",
+      "revelation_place": "مكية",
+      "revelation_order": 69,
+      "estimated_age": 50,
+      "verses_count": 110,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "19": {
+      "surah_number": 19,
+      "name_arabic": "مريم",
+      "revelation_place": "مكية",
+      "revelation_order": 44,
+      "estimated_age": 46,
+      "verses_count": 98,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "20": {
+      "surah_number": 20,
+      "name_arabic": "طه",
+      "revelation_place": "مكية",
+      "revelation_order": 45,
+      "estimated_age": 46,
+      "verses_count": 135,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "21": {
+      "surah_number": 21,
+      "name_arabic": "الأنبياء",
+      "revelation_place": "مكية",
+      "revelation_order": 73,
+      "estimated_age": 50,
+      "verses_count": 112,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "22": {
+      "surah_number": 22,
+      "name_arabic": "الحج",
+      "revelation_place": "مدنية",
+      "revelation_order": 103,
+      "estimated_age": 59,
+      "verses_count": 78,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "23": {
+      "surah_number": 23,
+      "name_arabic": "المؤمنون",
+      "revelation_place": "مكية",
+      "revelation_order": 74,
+      "estimated_age": 50,
+      "verses_count": 118,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "24": {
+      "surah_number": 24,
+      "name_arabic": "النور",
+      "revelation_place": "مدنية",
+      "revelation_order": 102,
+      "estimated_age": 58,
+      "verses_count": 64,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "25": {
+      "surah_number": 25,
+      "name_arabic": "الفرقان",
+      "revelation_place": "مكية",
+      "revelation_order": 42,
+      "estimated_age": 46,
+      "verses_count": 77,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "26": {
+      "surah_number": 26,
+      "name_arabic": "الشعراء",
+      "revelation_place": "مكية",
+      "revelation_order": 47,
+      "estimated_age": 47,
+      "verses_count": 227,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "27": {
+      "surah_number": 27,
+      "name_arabic": "النمل",
+      "revelation_place": "مكية",
+      "revelation_order": 48,
+      "estimated_age": 47,
+      "verses_count": 93,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "28": {
+      "surah_number": 28,
+      "name_arabic": "القصص",
+      "revelation_place": "مكية",
+      "revelation_order": 49,
+      "estimated_age": 47,
+      "verses_count": 88,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "29": {
+      "surah_number": 29,
+      "name_arabic": "العنكبوت",
+      "revelation_place": "مكية",
+      "revelation_order": 85,
+      "estimated_age": 54,
+      "verses_count": 69,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "30": {
+      "surah_number": 30,
+      "name_arabic": "الروم",
+      "revelation_place": "مكية",
+      "revelation_order": 84,
+      "estimated_age": 54,
+      "verses_count": 60,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "31": {
+      "surah_number": 31,
+      "name_arabic": "لقمان",
+      "revelation_place": "مكية",
+      "revelation_order": 57,
+      "estimated_age": 48,
+      "verses_count": 34,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "32": {
+      "surah_number": 32,
+      "name_arabic": "السجدة",
+      "revelation_place": "مكية",
+      "revelation_order": 75,
+      "estimated_age": 50,
+      "verses_count": 30,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "33": {
+      "surah_number": 33,
+      "name_arabic": "الأحزاب",
+      "revelation_place": "مدنية",
+      "revelation_order": 90,
+      "estimated_age": 57,
+      "verses_count": 73,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "34": {
+      "surah_number": 34,
+      "name_arabic": "سبأ",
+      "revelation_place": "مكية",
+      "revelation_order": 58,
+      "estimated_age": 48,
+      "verses_count": 54,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "35": {
+      "surah_number": 35,
+      "name_arabic": "فاطر",
+      "revelation_place": "مكية",
+      "revelation_order": 43,
+      "estimated_age": 46,
+      "verses_count": 45,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "36": {
+      "surah_number": 36,
+      "name_arabic": "يس",
+      "revelation_place": "مكية",
+      "revelation_order": 41,
+      "estimated_age": 46,
+      "verses_count": 83,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "37": {
+      "surah_number": 37,
+      "name_arabic": "الصافات",
+      "revelation_place": "مكية",
+      "revelation_order": 56,
+      "estimated_age": 48,
+      "verses_count": 182,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "38": {
+      "surah_number": 38,
+      "name_arabic": "ص",
+      "revelation_place": "مكية",
+      "revelation_order": 38,
+      "estimated_age": 45,
+      "verses_count": 88,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "39": {
+      "surah_number": 39,
+      "name_arabic": "الزمر",
+      "revelation_place": "مكية",
+      "revelation_order": 59,
+      "estimated_age": 48,
+      "verses_count": 75,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "40": {
+      "surah_number": 40,
+      "name_arabic": "غافر",
+      "revelation_place": "مكية",
+      "revelation_order": 60,
+      "estimated_age": 48,
+      "verses_count": 85,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "41": {
+      "surah_number": 41,
+      "name_arabic": "فصلت",
+      "revelation_place": "مكية",
+      "revelation_order": 61,
+      "estimated_age": 49,
+      "verses_count": 54,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "42": {
+      "surah_number": 42,
+      "name_arabic": "الشورى",
+      "revelation_place": "مكية",
+      "revelation_order": 62,
+      "estimated_age": 49,
+      "verses_count": 53,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "43": {
+      "surah_number": 43,
+      "name_arabic": "الزخرف",
+      "revelation_place": "مكية",
+      "revelation_order": 63,
+      "estimated_age": 49,
+      "verses_count": 89,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "44": {
+      "surah_number": 44,
+      "name_arabic": "الدخان",
+      "revelation_place": "مكية",
+      "revelation_order": 64,
+      "estimated_age": 49,
+      "verses_count": 59,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "45": {
+      "surah_number": 45,
+      "name_arabic": "الجاثية",
+      "revelation_place": "مكية",
+      "revelation_order": 65,
+      "estimated_age": 49,
+      "verses_count": 37,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "46": {
+      "surah_number": 46,
+      "name_arabic": "الأحقاف",
+      "revelation_place": "مكية",
+      "revelation_order": 66,
+      "estimated_age": 49,
+      "verses_count": 35,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "47": {
+      "surah_number": 47,
+      "name_arabic": "محمد",
+      "revelation_place": "مدنية",
+      "revelation_order": 95,
+      "estimated_age": 57,
+      "verses_count": 38,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "48": {
+      "surah_number": 48,
+      "name_arabic": "الفتح",
+      "revelation_place": "مدنية",
+      "revelation_order": 111,
+      "estimated_age": 58,
+      "verses_count": 29,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "49": {
+      "surah_number": 49,
+      "name_arabic": "الحجرات",
+      "revelation_place": "مدنية",
+      "revelation_order": 106,
+      "estimated_age": 60,
+      "verses_count": 18,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "50": {
+      "surah_number": 50,
+      "name_arabic": "ق",
+      "revelation_place": "مكية",
+      "revelation_order": 34,
+      "estimated_age": 45,
+      "verses_count": 45,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "51": {
+      "surah_number": 51,
+      "name_arabic": "الذاريات",
+      "revelation_place": "مكية",
+      "revelation_order": 67,
+      "estimated_age": 49,
+      "verses_count": 60,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "52": {
+      "surah_number": 52,
+      "name_arabic": "الطور",
+      "revelation_place": "مكية",
+      "revelation_order": 76,
+      "estimated_age": 51,
+      "verses_count": 49,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "53": {
+      "surah_number": 53,
+      "name_arabic": "النجم",
+      "revelation_place": "مكية",
+      "revelation_order": 23,
+      "estimated_age": 52,
+      "verses_count": 62,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "54": {
+      "surah_number": 54,
+      "name_arabic": "القمر",
+      "revelation_place": "مكية",
+      "revelation_order": 37,
+      "estimated_age": 45,
+      "verses_count": 55,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "55": {
+      "surah_number": 55,
+      "name_arabic": "الرحمن",
+      "revelation_place": "مدنية",
+      "revelation_order": 97,
+      "estimated_age": 58,
+      "verses_count": 78,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "56": {
+      "surah_number": 56,
+      "name_arabic": "الواقعة",
+      "revelation_place": "مكية",
+      "revelation_order": 46,
+      "estimated_age": 47,
+      "verses_count": 96,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "57": {
+      "surah_number": 57,
+      "name_arabic": "الحديد",
+      "revelation_place": "مدنية",
+      "revelation_order": 94,
+      "estimated_age": 57,
+      "verses_count": 29,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "58": {
+      "surah_number": 58,
+      "name_arabic": "المجادلة",
+      "revelation_place": "مدنية",
+      "revelation_order": 105,
+      "estimated_age": 59,
+      "verses_count": 22,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "59": {
+      "surah_number": 59,
+      "name_arabic": "الحشر",
+      "revelation_place": "مدنية",
+      "revelation_order": 101,
+      "estimated_age": 56,
+      "verses_count": 24,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "60": {
+      "surah_number": 60,
+      "name_arabic": "الممتحنة",
+      "revelation_place": "مدنية",
+      "revelation_order": 91,
+      "estimated_age": 58,
+      "verses_count": 13,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "61": {
+      "surah_number": 61,
+      "name_arabic": "الصف",
+      "revelation_place": "مدنية",
+      "revelation_order": 109,
+      "estimated_age": 61,
+      "verses_count": 14,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "62": {
+      "surah_number": 62,
+      "name_arabic": "الجمعة",
+      "revelation_place": "مدنية",
+      "revelation_order": 110,
+      "estimated_age": 61,
+      "verses_count": 11,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "63": {
+      "surah_number": 63,
+      "name_arabic": "المنافقون",
+      "revelation_place": "مدنية",
+      "revelation_order": 104,
+      "estimated_age": 59,
+      "verses_count": 11,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "64": {
+      "surah_number": 64,
+      "name_arabic": "التغابن",
+      "revelation_place": "مدنية",
+      "revelation_order": 108,
+      "estimated_age": 60,
+      "verses_count": 18,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "65": {
+      "surah_number": 65,
+      "name_arabic": "الطلاق",
+      "revelation_place": "مدنية",
+      "revelation_order": 99,
+      "estimated_age": 58,
+      "verses_count": 12,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "66": {
+      "surah_number": 66,
+      "name_arabic": "التحريم",
+      "revelation_place": "مدنية",
+      "revelation_order": 107,
+      "estimated_age": 60,
+      "verses_count": 12,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "67": {
+      "surah_number": 67,
+      "name_arabic": "الملك",
+      "revelation_place": "مكية",
+      "revelation_order": 77,
+      "estimated_age": 51,
+      "verses_count": 30,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "68": {
+      "surah_number": 68,
+      "name_arabic": "القلم",
+      "revelation_place": "مكية",
+      "revelation_order": 2,
+      "estimated_age": 40,
+      "verses_count": 52,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "69": {
+      "surah_number": 69,
+      "name_arabic": "الحاقة",
+      "revelation_place": "مكية",
+      "revelation_order": 78,
+      "estimated_age": 51,
+      "verses_count": 52,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "70": {
+      "surah_number": 70,
+      "name_arabic": "المعارج",
+      "revelation_place": "مكية",
+      "revelation_order": 79,
+      "estimated_age": 51,
+      "verses_count": 44,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "71": {
+      "surah_number": 71,
+      "name_arabic": "نوح",
+      "revelation_place": "مكية",
+      "revelation_order": 71,
+      "estimated_age": 50,
+      "verses_count": 28,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "72": {
+      "surah_number": 72,
+      "name_arabic": "الجن",
+      "revelation_place": "مكية",
+      "revelation_order": 40,
+      "estimated_age": 51,
+      "verses_count": 28,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "73": {
+      "surah_number": 73,
+      "name_arabic": "المزمل",
+      "revelation_place": "مكية",
+      "revelation_order": 3,
+      "estimated_age": 40,
+      "verses_count": 20,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "74": {
+      "surah_number": 74,
+      "name_arabic": "المدثر",
+      "revelation_place": "مكية",
+      "revelation_order": 4,
+      "estimated_age": 40,
+      "verses_count": 56,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "75": {
+      "surah_number": 75,
+      "name_arabic": "القيامة",
+      "revelation_place": "مكية",
+      "revelation_order": 31,
+      "estimated_age": 44,
+      "verses_count": 40,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "76": {
+      "surah_number": 76,
+      "name_arabic": "الإنسان",
+      "revelation_place": "مدنية",
+      "revelation_order": 98,
+      "estimated_age": 58,
+      "verses_count": 31,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "77": {
+      "surah_number": 77,
+      "name_arabic": "المرسلات",
+      "revelation_place": "مكية",
+      "revelation_order": 33,
+      "estimated_age": 44,
+      "verses_count": 50,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "78": {
+      "surah_number": 78,
+      "name_arabic": "النبأ",
+      "revelation_place": "مكية",
+      "revelation_order": 80,
+      "estimated_age": 51,
+      "verses_count": 40,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "79": {
+      "surah_number": 79,
+      "name_arabic": "النازعات",
+      "revelation_place": "مكية",
+      "revelation_order": 81,
+      "estimated_age": 51,
+      "verses_count": 46,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "80": {
+      "surah_number": 80,
+      "name_arabic": "عبس",
+      "revelation_place": "مكية",
+      "revelation_order": 24,
+      "estimated_age": 43,
+      "verses_count": 42,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "81": {
+      "surah_number": 81,
+      "name_arabic": "التكوير",
+      "revelation_place": "مكية",
+      "revelation_order": 7,
+      "estimated_age": 41,
+      "verses_count": 29,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "82": {
+      "surah_number": 82,
+      "name_arabic": "الانفطار",
+      "revelation_place": "مكية",
+      "revelation_order": 82,
+      "estimated_age": 51,
+      "verses_count": 19,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "83": {
+      "surah_number": 83,
+      "name_arabic": "المطففين",
+      "revelation_place": "مكية",
+      "revelation_order": 86,
+      "estimated_age": 54,
+      "verses_count": 36,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "84": {
+      "surah_number": 84,
+      "name_arabic": "الانشقاق",
+      "revelation_place": "مكية",
+      "revelation_order": 83,
+      "estimated_age": 51,
+      "verses_count": 25,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "85": {
+      "surah_number": 85,
+      "name_arabic": "البروج",
+      "revelation_place": "مكية",
+      "revelation_order": 27,
+      "estimated_age": 43,
+      "verses_count": 22,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "86": {
+      "surah_number": 86,
+      "name_arabic": "الطارق",
+      "revelation_place": "مكية",
+      "revelation_order": 36,
+      "estimated_age": 45,
+      "verses_count": 17,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "87": {
+      "surah_number": 87,
+      "name_arabic": "الأعلى",
+      "revelation_place": "مكية",
+      "revelation_order": 8,
+      "estimated_age": 41,
+      "verses_count": 19,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "88": {
+      "surah_number": 88,
+      "name_arabic": "الغاشية",
+      "revelation_place": "مكية",
+      "revelation_order": 68,
+      "estimated_age": 49,
+      "verses_count": 26,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "89": {
+      "surah_number": 89,
+      "name_arabic": "الفجر",
+      "revelation_place": "مكية",
+      "revelation_order": 10,
+      "estimated_age": 42,
+      "verses_count": 30,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "90": {
+      "surah_number": 90,
+      "name_arabic": "البلد",
+      "revelation_place": "مكية",
+      "revelation_order": 35,
+      "estimated_age": 45,
+      "verses_count": 20,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "91": {
+      "surah_number": 91,
+      "name_arabic": "الشمس",
+      "revelation_place": "مكية",
+      "revelation_order": 26,
+      "estimated_age": 43,
+      "verses_count": 15,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "92": {
+      "surah_number": 92,
+      "name_arabic": "الليل",
+      "revelation_place": "مكية",
+      "revelation_order": 9,
+      "estimated_age": 41,
+      "verses_count": 21,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "93": {
+      "surah_number": 93,
+      "name_arabic": "الضحى",
+      "revelation_place": "مكية",
+      "revelation_order": 11,
+      "estimated_age": 42,
+      "verses_count": 11,
+      "asbab_nuzul": "نزلت تثبيتاً للنبي ﷺ لما احتبس الوحي",
+      "context": "نزلت تثبيتاً للنبي ﷺ لما احتبس الوحي",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "94": {
+      "surah_number": 94,
+      "name_arabic": "الشرح",
+      "revelation_place": "مكية",
+      "revelation_order": 12,
+      "estimated_age": 42,
+      "verses_count": 8,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "95": {
+      "surah_number": 95,
+      "name_arabic": "التين",
+      "revelation_place": "مكية",
+      "revelation_order": 28,
+      "estimated_age": 43,
+      "verses_count": 8,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "96": {
+      "surah_number": 96,
+      "name_arabic": "العلق",
+      "revelation_place": "مكية",
+      "revelation_order": 1,
+      "estimated_age": 40,
+      "verses_count": 19,
+      "asbab_nuzul": "أول ما نزل من القرآن",
+      "context": "أول ما نزل من القرآن",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "97": {
+      "surah_number": 97,
+      "name_arabic": "القدر",
+      "revelation_place": "مكية",
+      "revelation_order": 25,
+      "estimated_age": 43,
+      "verses_count": 5,
+      "asbab_nuzul": "فضل ليلة القدر",
+      "context": "فضل ليلة القدر",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "98": {
+      "surah_number": 98,
+      "name_arabic": "البينة",
+      "revelation_place": "مدنية",
+      "revelation_order": 100,
+      "estimated_age": 58,
+      "verses_count": 8,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "99": {
+      "surah_number": 99,
+      "name_arabic": "الزلزلة",
+      "revelation_place": "مدنية",
+      "revelation_order": 93,
+      "estimated_age": 57,
+      "verses_count": 8,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المدنية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "100": {
+      "surah_number": 100,
+      "name_arabic": "العاديات",
+      "revelation_place": "مكية",
+      "revelation_order": 14,
+      "estimated_age": 42,
+      "verses_count": 11,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "101": {
+      "surah_number": 101,
+      "name_arabic": "القارعة",
+      "revelation_place": "مكية",
+      "revelation_order": 30,
+      "estimated_age": 44,
+      "verses_count": 11,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "102": {
+      "surah_number": 102,
+      "name_arabic": "التكاثر",
+      "revelation_place": "مكية",
+      "revelation_order": 16,
+      "estimated_age": 42,
+      "verses_count": 8,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "103": {
+      "surah_number": 103,
+      "name_arabic": "العصر",
+      "revelation_place": "مكية",
+      "revelation_order": 13,
+      "estimated_age": 42,
+      "verses_count": 3,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "104": {
+      "surah_number": 104,
+      "name_arabic": "الهمزة",
+      "revelation_place": "مكية",
+      "revelation_order": 32,
+      "estimated_age": 44,
+      "verses_count": 9,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "105": {
+      "surah_number": 105,
+      "name_arabic": "الفيل",
+      "revelation_place": "مكية",
+      "revelation_order": 19,
+      "estimated_age": 42,
+      "verses_count": 5,
+      "asbab_nuzul": "قصة أصحاب الفيل عام ميلاد النبي ﷺ",
+      "context": "قصة أصحاب الفيل عام ميلاد النبي ﷺ",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "106": {
+      "surah_number": 106,
+      "name_arabic": "قريش",
+      "revelation_place": "مكية",
+      "revelation_order": 29,
+      "estimated_age": 43,
+      "verses_count": 4,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "107": {
+      "surah_number": 107,
+      "name_arabic": "الماعون",
+      "revelation_place": "مكية",
+      "revelation_order": 17,
+      "estimated_age": 42,
+      "verses_count": 7,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "108": {
+      "surah_number": 108,
+      "name_arabic": "الكوثر",
+      "revelation_place": "مكية",
+      "revelation_order": 15,
+      "estimated_age": 42,
+      "verses_count": 3,
+      "asbab_nuzul": "أُعطي النبي ﷺ الكوثر",
+      "context": "أُعطي النبي ﷺ الكوثر",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "109": {
+      "surah_number": 109,
+      "name_arabic": "الكافرون",
+      "revelation_place": "مكية",
+      "revelation_order": 18,
+      "estimated_age": 42,
+      "verses_count": 6,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "110": {
+      "surah_number": 110,
+      "name_arabic": "النصر",
+      "revelation_place": "مدنية",
+      "revelation_order": 114,
+      "estimated_age": 60,
+      "verses_count": 3,
+      "asbab_nuzul": "إشارة إلى قرب وفاة النبي ﷺ",
+      "context": "إشارة إلى قرب وفاة النبي ﷺ",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "111": {
+      "surah_number": 111,
+      "name_arabic": "المسد",
+      "revelation_place": "مكية",
+      "revelation_order": 6,
+      "estimated_age": 41,
+      "verses_count": 5,
+      "asbab_nuzul": "نزلت في أبي لهب",
+      "context": "نزلت في أبي لهب",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "112": {
+      "surah_number": 112,
+      "name_arabic": "الإخلاص",
+      "revelation_place": "مكية",
+      "revelation_order": 22,
+      "estimated_age": 43,
+      "verses_count": 4,
+      "asbab_nuzul": "تعدل ثلث القرآن",
+      "context": "تعدل ثلث القرآن",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "113": {
+      "surah_number": 113,
+      "name_arabic": "الفلق",
+      "revelation_place": "مكية",
+      "revelation_order": 20,
+      "estimated_age": 42,
+      "verses_count": 5,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    },
+    "114": {
+      "surah_number": 114,
+      "name_arabic": "الناس",
+      "revelation_place": "مكية",
+      "revelation_order": 21,
+      "estimated_age": 42,
+      "verses_count": 6,
+      "asbab_nuzul": "لا يوجد سبب نزول خاص مشهور",
+      "context": "من السور المكية",
+      "sources": [
+        {
+          "title": "تفسير ابن كثير",
+          "url": "https://shamela.ws/book/10962"
+        }
+      ]
+    }
+  }
+}

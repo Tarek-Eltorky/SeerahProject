@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>السيرة النبوية الشريفة</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 10px;
+      color: white;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .subtitle {
+      font-size: 1.2em;
+      opacity: 0.95;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .cube {
+      aspect-ratio: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    .cube::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .cube:hover::before {
+      opacity: 1;
+    }
+    .cube:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .age-cube {
+      background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    }
+    .battle-cube {
+      background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    }
+    .wife-cube {
+      background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
+    }
+    .details-panel {
+      display: none;
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 20px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      animation: slideIn 0.3s ease;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .details-panel h3 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      font-size: 1.8em;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+    }
+    .detail-item {
+      margin: 15px 0;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      border-left: 4px solid #3498db;
+    }
+    .detail-label {
+      font-weight: bold;
+      color: #2c3e50;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .detail-value {
+      color: #34495e;
+      line-height: 1.6;
+    }
+    .source {
+      background: #e8f5e9;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border-left: 3px solid #4caf50;
+    }
+    .quran-ref {
+      background: #fff3e0;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border-left: 3px solid #ff9800;
+    }
+    .event {
+      background: white;
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #9b59b6;
+    }
+    .event-title {
+      font-weight: bold;
+      color: #8e44ad;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .close-btn {
+      background: #e74c3c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-top: 15px;
+      transition: background 0.3s ease;
+    }
+    .close-btn:hover {
+      background: #c0392b;
+    }
+    .key-figures {
+      background: #fff8e1;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border-left: 3px solid #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🕌 السيرة النبوية الشريفة 🕌</h1>
+      <p class="subtitle">رحلة شاملة في حياة خير البشر محمد ﷺ</p>
+      <p class="subtitle">من الولادة حتى الوفاة - مع المصادر الموثقة</p>
+    </header>
+
+    <section>
+      <h2>📅 العمر (0-63 سنة)</h2>
+      <div id="ages-grid" class="grid"></div>
+      <div id="ages-details"></div>
+    </section>
+
+    <section>
+      <h2>⚔️ الغزوات والمعارك الكبرى</h2>
+      <div id="battles-grid" class="grid"></div>
+      <div id="battles-details"></div>
+    </section>
+
+    <section>
+      <h2>👑 أمهات المؤمنين رضي الله عنهن</h2>
+      <div id="wives-grid" class="grid"></div>
+      <div id="wives-details"></div>
+    </section>
+  </div>
+
+  <script src="extracted-data.js"></script>
+  <script>
+    function hideAllPanels() {
+      document.querySelectorAll('.details-panel').forEach(panel => {
+        panel.style.display = 'none';
+      });
+    }
+
+    function toggleCube(id, type) {
+      const panel = document.getElementById(id);
+      const isVisible = panel.style.display === 'block';
+      
+      hideAllPanels();
+      
+      if (!isVisible) {
+        panel.style.display = 'block';
+        panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function renderEvent(event) {
+      let html = '<div class="event">';
+      html += `<div class="event-title">${event.title}</div>`;
+      
+      if (event.location || event.hijri_date) {
+        html += '<div style="margin:10px 0;">';
+        if (event.location) html += `<span style="color:#0e7490;">📍 ${event.location}</span>`;
+        if (event.location && event.hijri_date) html += ' | ';
+        if (event.hijri_date) html += `<span style="color:#0e7490;">📅 ${event.hijri_date}</span>`;
+        html += '</div>';
+      }
+      
+      if (event.detailed_ar) {
+        html += `<p style="line-height:2;margin:15px 0;">${event.detailed_ar}</p>`;
+      }
+      
+      if (event.key_figures && event.key_figures.length > 0) {
+        html += '<div class="key-figures"><strong>👥 الشخصيات الرئيسية:</strong><br>';
+        event.key_figures.forEach(f => {
+          html += `<span style="display:inline-block;background:#fff3e0;padding:5px 10px;margin:5px;border-radius:12px;">👤 ${f}</span>`;
+        });
+        html += '</div>';
+      }
+      
+      if (event.sources && event.sources.length > 0) {
+        html += '<div style="margin-top:15px;"><strong>📚 المصادر:</strong></div>';
+        event.sources.forEach(source => {
+          html += '<div class="source">';
+          html += `<strong>${source.source}</strong>`;
+          if (source.reference) html += `<br>${source.reference}`;
+          if (source.hadith_number) html += `<br>حديث رقم: ${source.hadith_number}`;
+          if (source.authenticity) html += ` <span style="background:#c8e6c9;padding:2px 8px;border-radius:10px;">✓ ${source.authenticity}</span>`;
+          if (source.link) html += `<br><a href="${source.link}" target="_blank" style="color:#2196f3;">🔗 رابط المصدر</a>`;
+          html += '</div>';
+        });
+      }
+      
+      if (event.quran_ref) {
+        html += '<div class="quran-ref">';
+        html += `<strong>📖 القرآن الكريم - سورة ${event.quran_ref.surah}:</strong><br>`;
+        html += event.quran_ref.context;
+        html += '</div>';
+      }
+      
+      html += '</div>';
+      return html;
+    }
+
+    function renderAges() {
+      const grid = document.getElementById('ages-grid');
+      const details = document.getElementById('ages-details');
+      
+      let gridHTML = '';
+      let detailsHTML = '';
+      
+      DATA.ages.forEach(age => {
+        gridHTML += `<div class="cube age-cube" onclick="toggleCube('age-${age.age}', 'age')">
+          <div>${age.age}</div>
+          <div style="font-size: 0.8em;">سنة</div>
+        </div>`;
+        
+        detailsHTML += `<div id="age-${age.age}" class="details-panel">
+          <h3>العمر: ${age.age} سنة</h3>`;
+        
+        if (age.hijri_year) {
+          detailsHTML += `<div class="detail-item"><span class="detail-label">📅 التاريخ الهجري:</span><span class="detail-value">${age.hijri_year}</span></div>`;
+        }
+        
+        if (age.summary) {
+          detailsHTML += `<div class="detail-item"><span class="detail-label">📖 ملخص:</span><span class="detail-value">${age.summary}</span></div>`;
+        }
+        
+        if (age.events && age.events.length > 0) {
+          age.events.forEach(event => {
+            detailsHTML += renderEvent(event);
+          });
+        }
+        
+        if (age.surahs && age.surahs.length > 0) {
+          detailsHTML += '<div class="detail-item"><strong>📖 السور المنزلة:</strong> ' + age.surahs.join('، ') + '</div>';
+        }
+        
+        detailsHTML += `<button class="close-btn" onclick="hideAllPanels()">إغلاق</button></div>`;
+      });
+      
+      grid.innerHTML = gridHTML;
+      details.innerHTML = detailsHTML;
+    }
+
+    function renderBattles() {
+      const grid = document.getElementById('battles-grid');
+      const details = document.getElementById('battles-details');
+      
+      let gridHTML = '';
+      let detailsHTML = '';
+      
+      DATA.battles.forEach((battle, index) => {
+        gridHTML += `<div class="cube battle-cube" onclick="toggleCube('battle-${index}', 'battle')">${battle.name}</div>`;
+        
+        detailsHTML += `<div id="battle-${index}" class="details-panel">
+          <h3>${battle.name}</h3>`;
+        
+        if (battle.hijri_year) detailsHTML += `<div class="detail-item"><strong>📅 التاريخ:</strong> ${battle.hijri_year}</div>`;
+        if (battle.location) detailsHTML += `<div class="detail-item"><strong>📍 المكان:</strong> ${battle.location}</div>`;
+        if (battle.cause) detailsHTML += `<div class="detail-item"><strong>🎯 السبب:</strong><br>${battle.cause}</div>`;
+        if (battle.muslim_forces) detailsHTML += `<div class="detail-item"><strong>⚔️ قوات المسلمين:</strong> ${battle.muslim_forces}</div>`;
+        if (battle.enemy_forces) detailsHTML += `<div class="detail-item"><strong>⚔️ قوات الأعداء:</strong> ${battle.enemy_forces}</div>`;
+        if (battle.detailed_ar) detailsHTML += `<div class="detail-item"><strong>📜 تفاصيل:</strong><br><p style="line-height:2;">${battle.detailed_ar}</p></div>`;
+        if (battle.outcome) detailsHTML += `<div class="detail-item" style="background:#d1fae5;"><strong>✓ النتيجة:</strong> ${battle.outcome}</div>`;
+        if (battle.muslim_casualties) detailsHTML += `<div class="detail-item"><strong>🕊️ شهداء المسلمين:</strong> ${battle.muslim_casualties}</div>`;
+        if (battle.enemy_casualties) detailsHTML += `<div class="detail-item"><strong>💀 خسائر الأعداء:</strong> ${battle.enemy_casualties}</div>`;
+        
+        if (battle.key_figures && battle.key_figures.length > 0) {
+          detailsHTML += '<div class="key-figures"><strong>👥 الشخصيات الرئيسية:</strong><br>';
+          battle.key_figures.forEach(f => {
+            detailsHTML += `<span style="display:inline-block;background:#fff3e0;padding:5px 10px;margin:5px;border-radius:12px;">👤 ${f}</span>`;
+          });
+          detailsHTML += '</div>';
+        }
+        
+        if (battle.quran_refs && battle.quran_refs.length > 0) {
+          battle.quran_refs.forEach(ref => {
+            detailsHTML += `<div class="quran-ref"><strong>📖 سورة ${ref.surah}:</strong><br>${ref.context}</div>`;
+          });
+        }
+        
+        if (battle.sources && battle.sources.length > 0) {
+          detailsHTML += '<div style="margin-top:15px;"><strong>📚 المصادر:</strong></div>';
+          battle.sources.forEach(source => {
+            detailsHTML += '<div class="source">';
+            detailsHTML += `<strong>${source.source}</strong>`;
+            if (source.reference) detailsHTML += `<br>${source.reference}`;
+            if (source.hadith_number) detailsHTML += `<br>حديث رقم: ${source.hadith_number}`;
+            if (source.authenticity) detailsHTML += ` <span style="background:#c8e6c9;padding:2px 8px;border-radius:10px;">✓ ${source.authenticity}</span>`;
+            detailsHTML += '</div>';
+          });
+        }
+        
+        detailsHTML += `<button class="close-btn" onclick="hideAllPanels()">إغلاق</button></div>`;
+      });
+      
+      grid.innerHTML = gridHTML;
+      details.innerHTML = detailsHTML;
+    }
+
+    function renderWives() {
+      const grid = document.getElementById('wives-grid');
+      const details = document.getElementById('wives-details');
+      
+      let gridHTML = '';
+      let detailsHTML = '';
+      
+      DATA.wives.forEach((wife, index) => {
+        gridHTML += `<div class="cube wife-cube" onclick="toggleCube('wife-${index}', 'wife')">${wife.name}</div>`;
+        
+        detailsHTML += `<div id="wife-${index}" class="details-panel">
+          <h3>${wife.name}</h3>`;
+        
+        if (wife.full_name) detailsHTML += `<div class="detail-item">${wife.full_name}</div>`;
+        if (wife.title) detailsHTML += `<div class="detail-item" style="background:#fff3e0;"><strong>⭐</strong> ${wife.title}</div>`;
+        if (wife.marriage_year) detailsHTML += `<div class="detail-item"><strong>💍 زواجها:</strong> ${wife.marriage_year}</div>`;
+        if (wife.marriage_location) detailsHTML += `<div class="detail-item"><strong>📍 مكان الزواج:</strong> ${wife.marriage_location}</div>`;
+        if (wife.biography) detailsHTML += `<div class="detail-item"><strong>📖 السيرة:</strong><br><p style="line-height:2;">${wife.biography}</p></div>`;
+        
+        if (wife.children) {
+          detailsHTML += '<div class="detail-item"><strong>👶 الأبناء:</strong><br>';
+          if (Array.isArray(wife.children)) {
+            wife.children.forEach(child => {
+              detailsHTML += `<span style="display:inline-block;background:#fce4ec;padding:5px 10px;margin:5px;border-radius:12px;">👤 ${child}</span>`;
+            });
+          } else {
+            detailsHTML += `<p>${wife.children}</p>`;
+          }
+          detailsHTML += '</div>';
+        }
+        
+        if (wife.death) detailsHTML += `<div class="detail-item"><strong>⚰️ وفاتها:</strong> ${wife.death}</div>`;
+        if (wife.virtues) detailsHTML += `<div class="detail-item" style="background:#f3e5f5;"><strong>⭐ فضائلها:</strong><br>${wife.virtues}</div>`;
+        
+        if (wife.quran_ref) {
+          detailsHTML += `<div class="quran-ref"><strong>📖 سورة ${wife.quran_ref.surah}:</strong><br>${wife.quran_ref.context}</div>`;
+        }
+        
+        if (wife.sources && wife.sources.length > 0) {
+          detailsHTML += '<div style="margin-top:15px;"><strong>📚 المصادر:</strong></div>';
+          wife.sources.forEach(source => {
+            detailsHTML += '<div class="source">';
+            detailsHTML += `<strong>${source.source}</strong>`;
+            if (source.reference) detailsHTML += `<br>${source.reference}`;
+            if (source.hadith_number) detailsHTML += `<br>حديث رقم: ${source.hadith_number}`;
+            if (source.authenticity) detailsHTML += ` <span style="background:#c8e6c9;padding:2px 8px;border-radius:10px;">✓ ${source.authenticity}</span>`;
+            detailsHTML += '</div>';
+          });
+        }
+        
+        detailsHTML += `<button class="close-btn" onclick="hideAllPanels()">إغلاق</button></div>`;
+      });
+      
+      grid.innerHTML = gridHTML;
+      details.innerHTML = detailsHTML;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('✅ تم تحميل السيرة النبوية الشريفة');
+      console.log(`📊 الأعمار: ${DATA.ages.length}، الغزوات: ${DATA.battles.length}، أمهات المؤمنين: ${DATA.wives.length}`);
+      
+      renderAges();
+      renderBattles();
+      renderWives();
+    });
+  </script>
+</body>
+</html>
