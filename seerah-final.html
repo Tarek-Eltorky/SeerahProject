@@ -226,6 +226,31 @@
     .close-btn:hover {
       background: #c0392b;
     }
+    .nav-btn {
+      background: linear-gradient(135deg, #d4af37 0%, #f4e4a6 100%);
+      color: #2c1810;
+      border: 2px solid #b8941e;
+      padding: 12px 25px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1.1em;
+      font-weight: 700;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      font-family: 'Amiri', 'Scheherazade New', serif;
+    }
+    .nav-btn:hover:not(.disabled) {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+      background: linear-gradient(135deg, #f4e4a6 0%, #d4af37 100%);
+    }
+    .nav-btn.disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      background: #ccc;
+      border-color: #999;
+      color: #666;
+    }
     .key-figures {
       background: #fff8e1;
       padding: 10px;
@@ -279,6 +304,29 @@
       if (!isVisible) {
         panel.style.display = 'block';
         panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+    
+    function navigateItem(currentId, direction, type) {
+      let items;
+      if (type === 'age') items = DATA.ages;
+      else if (type === 'battle') items = DATA.battles;
+      else if (type === 'wife') items = DATA.wives;
+      
+      const currentIndex = items.findIndex((item, idx) => {
+        if (type === 'age') return `age-${item.age}` === currentId;
+        if (type === 'battle') return `battle-${idx}` === currentId;
+        if (type === 'wife') return `wife-${idx}` === currentId;
+      });
+      
+      const newIndex = currentIndex + direction;
+      if (newIndex >= 0 && newIndex < items.length) {
+        let newId;
+        if (type === 'age') newId = `age-${items[newIndex].age}`;
+        else if (type === 'battle') newId = `battle-${newIndex}`;
+        else if (type === 'wife') newId = `wife-${newIndex}`;
+        
+        toggleCube(newId, type);
       }
     }
 
@@ -343,8 +391,16 @@
           <div style="font-size: 0.8em;">سنة</div>
         </div>`;
         
+        const ageIndex = DATA.ages.findIndex(a => a.age === age.age);
+        const hasPrev = ageIndex > 0;
+        const hasNext = ageIndex < DATA.ages.length - 1;
+        
         detailsHTML += `<div id="age-${age.age}" class="details-panel">
-          <h3>العمر: ${age.age} سنة</h3>`;
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+            <button class="nav-btn ${!hasPrev ? 'disabled' : ''}" onclick="navigateItem('age-${age.age}', -1, 'age')" ${!hasPrev ? 'disabled' : ''}>⬅ السابق</button>
+            <h3 style="margin:0;">العمر: ${age.age} سنة</h3>
+            <button class="nav-btn ${!hasNext ? 'disabled' : ''}" onclick="navigateItem('age-${age.age}', 1, 'age')" ${!hasNext ? 'disabled' : ''}>التالي ➡</button>
+          </div>`;
         
         if (age.hijri_year) {
           detailsHTML += `<div class="detail-item"><span class="detail-label">📅 التاريخ الهجري:</span><span class="detail-value">${age.hijri_year}</span></div>`;
@@ -381,8 +437,15 @@
       DATA.battles.forEach((battle, index) => {
         gridHTML += `<div class="cube battle-cube" onclick="toggleCube('battle-${index}', 'battle')">${battle.name}</div>`;
         
+        const hasPrev = index > 0;
+        const hasNext = index < DATA.battles.length - 1;
+        
         detailsHTML += `<div id="battle-${index}" class="details-panel">
-          <h3>${battle.name}</h3>`;
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
+            <button class="nav-btn ${!hasPrev ? 'disabled' : ''}" onclick="navigateItem('battle-${index}', -1, 'battle')" ${!hasPrev ? 'disabled' : ''}>⬅ السابقة</button>
+            <h3 style="margin:0;flex:1;text-align:center;">${battle.name}</h3>
+            <button class="nav-btn ${!hasNext ? 'disabled' : ''}" onclick="navigateItem('battle-${index}', 1, 'battle')" ${!hasNext ? 'disabled' : ''}>التالية ➡</button>
+          </div>`;
         
         if (battle.hijri_year) detailsHTML += `<div class="detail-item"><strong>📅 التاريخ:</strong> ${battle.hijri_year}</div>`;
         if (battle.location) detailsHTML += `<div class="detail-item"><strong>📍 المكان:</strong> ${battle.location}</div>`;
@@ -437,8 +500,15 @@
       DATA.wives.forEach((wife, index) => {
         gridHTML += `<div class="cube wife-cube" onclick="toggleCube('wife-${index}', 'wife')">${wife.name}</div>`;
         
+        const hasPrev = index > 0;
+        const hasNext = index < DATA.wives.length - 1;
+        
         detailsHTML += `<div id="wife-${index}" class="details-panel">
-          <h3>${wife.name}</h3>`;
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
+            <button class="nav-btn ${!hasPrev ? 'disabled' : ''}" onclick="navigateItem('wife-${index}', -1, 'wife')" ${!hasPrev ? 'disabled' : ''}>⬅ السابقة</button>
+            <h3 style="margin:0;flex:1;text-align:center;">${wife.name}</h3>
+            <button class="nav-btn ${!hasNext ? 'disabled' : ''}" onclick="navigateItem('wife-${index}', 1, 'wife')" ${!hasNext ? 'disabled' : ''}>التالية ➡</button>
+          </div>`;
         
         if (wife.full_name) detailsHTML += `<div class="detail-item">${wife.full_name}</div>`;
         if (wife.title) detailsHTML += `<div class="detail-item" style="background:#fff3e0;"><strong>⭐</strong> ${wife.title}</div>`;
